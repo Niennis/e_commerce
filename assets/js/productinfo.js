@@ -1,3 +1,6 @@
+// -------------------------------------- API MERCADO LIBRE
+// ------------------------------MUESTRA INFO DE PRODUCTOS
+
 const accessToken = 'APP_USR-8189733489067517-022707-815285de0a64dbe771d33f0539e5cf43__J_H__-239442426';
 document.addEventListener('click', function(e) {
   if (e.target.id === 'view_product') {
@@ -16,6 +19,8 @@ function getProductInfo(productID) {
       $('#productModal').modal();
     });
 }
+
+// ---------------------------------- AGREGA EL TEMPLATE
 
 function fillTemplate(data) {
   let rawTemplate = document.getElementById('product-template').innerHTML;

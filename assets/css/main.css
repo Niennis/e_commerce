@@ -6,15 +6,18 @@
 #freeShipping{
   background-color: black;
 }
+
 #freeShipping a, #freeShipping p{
   color: white;
   font-size: 14px;
   padding: 1vh 0 0 0; 
 }
 
+/* ---------------------- INICIO BARRA DE CATEGORIAS*/
 nav{
   margin: 2vh 0;
 }
+
 nav img{
   width: 15vh;
 }
@@ -41,8 +44,9 @@ nav a, .show a, .someCategories a{
 
 .show {
   border : 1px solid  #F0F8FF;
-  text-align: center;
 }
+/* ---------------------- FIN BARRA DE CATEGORIAS*/
+
 
 /* ------------------ INICIO PRODUCTS */
 .products{
@@ -93,8 +97,3 @@ nav a, .show a, .someCategories a{
 }
 
 /* --------- FIN PAGINA DECO */
-
-.show {
-  border : 1px solid  #F0F8FF;
-  text-align: center;
-}

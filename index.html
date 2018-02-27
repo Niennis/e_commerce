@@ -25,7 +25,7 @@
       </div>
     </div>
   </section>
-
+<!-- _________________________________ INICIO BARRA DE SHIPPING -->
   <nav class="container">
     <div class="row">
       <div class="col-lg-2 col-md-2">
@@ -64,7 +64,10 @@
         </li>
       </div>
     </div>
-  </nav>
+	</nav>
+<!-- _________________________________ FIN BARRA DE SHIPPING -->
+	
+<!-- _________________________________ INICIO BARRA DE CATEGORIAS -->
 
   <section class="container someCategories">
     <div class="row">
@@ -94,13 +97,20 @@
         </ul>
       </div>
     </div>
-  </section>
-    
+	</section>
+	<!-- ________________________________________ FIN BARRA DE CATEGORIAS -->
+	
+	<!-- ________________________________________ INICIO DIV MUESTRA PRODUCTOS -->
+  
   <div class="show">
 		<div class="row" id="app">
 
 		</div>
 	</div>
+
+	<!-- ________________________________________ FIN DIV MUESTRA PRODUCTOS -->
+	
+	<!-- ________________________________________ INICIO MODAL PAYPAL -->
   
   <div id="productModal" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
@@ -124,7 +134,9 @@
         </div>
       </div>
     </div>
-  </div>
+	</div>
+	<!-- ________________________________________ FIN MODAL PAYPAL -->
+	
 
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -136,7 +148,9 @@
 
   <script src="./assets/js/handlebars-v4.0.11.js"></script>
 
-	<script id="quote-template" type="text/x-handlebars-template">		
+	<!-- ________________________________________ INICIO TEMPLATE PRODUCTOS -->
+	
+	<script id="productsTemplate" type="text/x-handlebars-template">		
 		<div class="col-md-3 col-sm-6 col-12">
 			<div class="card-group">
 				<div class="card bg-light mb-3" style="width: 18rem;">
@@ -158,6 +172,9 @@
 			</div>
 		</div>
 	</script>
+	<!-- ________________________________________ FIN TEMPLATE PRODUCTOS -->
+
+	<!-- ________________________________________ INICIO TEMPLATE MODAL PRODUCTO -->
 	
 	<script id="product-template" type="text/x-handlebars-template">
 		{{data}}
@@ -198,6 +215,7 @@
 			</div>
 		</div>	
 	</script>
+	<!-- ________________________________________ FIN TEMPLATE MODAL PRODUCTO -->	
 
   <script src="assets/js/productinfo.js"></script>
   <script src="./assets/js/products.js"></script>
